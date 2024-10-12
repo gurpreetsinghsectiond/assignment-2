@@ -1,0 +1,138 @@
+/* Consistent Color Scheme and Typography */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#f1f1f1;
+    color: #95109a;
+}
+
+header, footer {
+    background-color: chocolate;
+    color: chocolate;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Button hover effects and animations */
+a:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+/* Loading animation example */
+#home {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Custom footer styling */
+footer {
+    background-color: #555;
+    padding: 20px;
+}
+background-color: #f1f1f1;
+  }
+  .card-img {
+    border-radius: 5px 5px 0 0;
+     width:100%; 
+    /* height: 50%; */ 
+    /* border-radius: 8px 8px 0 0; */
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(26, 32, 190, 0.2);
+    /* transform: scale(1.05); */
+  }
+  
+  .container {
+    padding: 2px 16px;
+    /* display: flex; */
+    /* margin: 40px auto; */
+    /* justify-content: center; */
+    /* gap: 40px; */
+    /* text-align: center; */
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  .row{ margin: 0 -5px;}
+  
+   .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+/* Mobile first design */
+body {
+    font-size: 10px;
+}
+
+header, footer {
+    padding: 1rem;
+    color:white;
+}
+
+.h2{
+    color:#3e4444;
+}
+/* For tablets */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    nav ul li {
+        margin: 0 30px;
+    }
+}
+
+/* For desktop */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+
+    header, footer {
+        padding: 2rem;
+    }
+}
+/* Custom footer styling */
+footer {
+    background-color:chocolate;
+    padding: 20px;
+}
